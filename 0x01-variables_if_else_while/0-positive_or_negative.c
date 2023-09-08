@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  *
- * description: false or true validation
+ * description: this program assign a random number and determine wether its positive or negative or zero
  *
  * Return : Always 0 (success)
 */

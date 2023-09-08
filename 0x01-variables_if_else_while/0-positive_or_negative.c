@@ -6,9 +6,9 @@
 /**
  * main - Entry point
  *
- * description: this program assign a random number and determine wether its positive or negative or zero
+ * description: negative or positive or zero number
  *
- * Return : Always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)

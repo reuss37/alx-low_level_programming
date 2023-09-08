@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  *
- * description: my file
+ * description: false or true validation
  *
  * Return : 0 (success)
 */

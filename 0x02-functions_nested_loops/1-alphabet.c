@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: use _putchar to print alphabet from  a to z in lower case
+ * print_alphabet - use _putchar to print alphabet from  a to z in lower case
  *
  * Return: Always 0 (success)
 */

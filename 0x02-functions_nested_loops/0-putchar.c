@@ -3,12 +3,13 @@
 /**
  * main - Entry point
  *
- * Description: print putchar by new line
+ * Description: prints _putchar using prototype
  *
  * Return: Always 0 (success)
 */
 
 int main(void)
+{
 	char str[] = "_putchar";
 	int ch;
 

@@ -3,11 +3,11 @@
 /**
  * main - Entry point
  *
- * Description: use _putchar to print alphabet a-z
+ * Description: use _putchar to print alphabet from  a to z in lower case
  *
  * Return: Always 0 (success)
 */
-// print alphabet in lower case
+
 void print_alphabet(void)
 {
 	int ch;

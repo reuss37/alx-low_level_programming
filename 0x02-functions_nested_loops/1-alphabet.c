@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (success)
 */
-
+// print alphabet in lower case
 void print_alphabet(void)
 {
 	int ch;

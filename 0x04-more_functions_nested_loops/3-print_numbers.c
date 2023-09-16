@@ -4,11 +4,10 @@
  * print_numbers - print 0 - 9
  *		only using _putchar twice
  *
- *
  * Return: return result
 */
 
-void print_numbers(void);
+void print_numbers(void)
 {
 	int num = 0;
 

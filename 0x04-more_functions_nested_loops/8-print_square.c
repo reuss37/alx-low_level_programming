@@ -20,7 +20,7 @@ void print_square(int size)
 	{
 		for (int j = 0; j < size; j++)
 		{
-			_putchar('3');
+			_putchar('#');
 		}
 		_putchar('\n');
 	}

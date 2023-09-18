@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * rev_string - reverses a string.
+ * rev_string - reverses a string
  *
- * %s: string parameter input
+ * @s: string parameter input
  *
  * Return: Nothing
 */

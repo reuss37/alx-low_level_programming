@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * put82 - prints every character of string
+ * puts2 - prints every character of string
  *
  * @str: string parameter input
  *

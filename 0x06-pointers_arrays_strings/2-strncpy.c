@@ -16,9 +16,10 @@ char *_strncpy(char *dest, char *src, int n)
 
 	/**
 	 * iterate through arc array
-	 * where if there is no arc array
+	 * where if there is no src array
 	 * among first n bytes of source
-	 * string will not be null terminated
+	 * string placed in dest will not be
+	 * null terminated
 	 */
 	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[i] = src[i];

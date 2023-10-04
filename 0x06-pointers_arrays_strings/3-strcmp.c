@@ -2,30 +2,24 @@
 
 /**
  * _strcmp - compares two strings
- * @sl: first string to compare
- * @s2: second string to compare
+ * @sl: input value
+ * @s2: input value
  *
- * Description: this function compares two strings s1 and s2
- * and return 0 if strings are equal, and negative value
- * if s1 < s2 or positive value if s1 > s2
- *
- * Return: 1 if true, 0 if false
+ * Return: s1[i] -s2[i]
 */
 
 int _strcmp(char *s1, char *s2)
 {
-	int equal = 0;
+	int i;
 
-	while (*s1)
+	i = 0;
+	while (s1[i] != '\0' && s2[i] != '\0')
 	{
-		if (*s1 != *s2)
+		if (s1[i] != s2[i])
 		{
-			equal = ((int)*s1 - 48) - ((int)*s2 - 48);
-			break;
-
+			return (s1[i] - s2[i]);
 		}
-		s1++;
-		s2++;
+		i++;
 	}
-	return (equal);
+	return (0);
 }

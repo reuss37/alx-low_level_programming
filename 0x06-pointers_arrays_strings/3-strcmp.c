@@ -2,8 +2,13 @@
 
 /**
  * _strcmp - compares two strings
- * @sl: string 1
- * @s2: string 2
+ * @sl: first string to compare
+ * @s2: second string to compare
+ *
+ * Description: this function compares two strings s1 and s2
+ * and return 0 if strings are equal, and negative value
+ * if s1 < s2 or positive value if s1 > s2
+ *
  * Return: 1 if true, 0 if false
 */
 

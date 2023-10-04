@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * _stchr - Entry point
+ * _strchr - Entry point
  * @s: input
  * @c: input
- * Return: Always 0 (success)
+ *
+ * Description: function locates character in string
+ *
+ * Return: Always 0 (Success)
 */
 
 char *_strchr(char *s, char c)

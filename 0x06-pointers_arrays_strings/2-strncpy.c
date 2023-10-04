@@ -25,8 +25,8 @@ char *_strncpy(char *dest, char *src, int n)
 
 	/**
 	 * if length of source less than n
-	 * write additional bytes to dest
-	 * to ensure total of n bytes is written
+	 * write additional bytes to dest to
+	 * ensure total of n bytes is written
 	*/
 	while (i < n)
 	{
